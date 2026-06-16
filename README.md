@@ -1,47 +1,158 @@
-# PDF_Print_Manager
-🖨️ PDF Print Manager PRO — KAKULANEX Edition
+Here is a **professional GitHub README.md** for your project **PDF Print Manager PRO (KAKULANEX Edition)**:
 
-PDF Print Manager PRO is a powerful Windows-based printing automation software designed to simplify and streamline batch printing of PDF documents in personal, business, and enterprise environments.
+---
 
-It enables users to automatically detect, queue, and print multiple PDF files from folders and subfolders with advanced control features, making document handling faster, smarter, and more efficient.
+# 📄 PDF Print Manager PRO — KAKULANEX Edition
 
-🚀 Key Features
-📂 Batch PDF Printing
-Automatically print multiple PDF files from selected folders and subfolders.
-🖨️ Multi-Printer Support
-Supports local, USB, and network printers with easy selection.
-📊 Smart Print Queue System
-Excel-style queue interface for monitoring print jobs in real time.
-⏯️ Pause, Resume & Cancel
-Full control over print jobs without restarting the process.
-🔁 Auto-Retry System
-Automatically retries failed print jobs for reliability.
-📈 Real-Time Progress Tracking
-Visual progress bar and live status updates for all print tasks.
-📄 PDF Preview Pane
-Preview documents before printing for accuracy and control.
-🌙 Modern Dark Mode UI
-Clean and professional interface optimized for long usage.
-🔊 Completion Alerts
-Audio notification when print jobs are completed.
-📝 Print Logging System
-Maintains logs of successful and failed print jobs for auditing.
-💾 Portable & Installer Versions
-Can run directly from USB or be installed on Windows systems.
-🔄 Auto Update Support
-Built-in update system via GitHub Releases for seamless upgrades.
-💡 Use Cases
-Office document printing automation
-School and university administrative printing
-Business invoice and report printing
-Government and institutional document handling
-Print shop and bulk document processing
-⚙️ System Requirements
-Windows 10 / 11
-Minimum 4GB RAM
-Printer (USB or Network)
-SumatraPDF (bundled or portable version)
-🏷️ Publisher
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-KAKULANEX Software Solutions
+## 🖨️ Overview
+
+**PDF Print Manager PRO** is a powerful Windows desktop application designed to automate and manage batch printing of PDF documents efficiently.
+
+It allows users to select folders, queue multiple PDF files, manage printers, and execute print jobs with full control and real-time monitoring.
+
+Built for **offices, institutions, print shops, and enterprise environments**, it simplifies large-scale document printing workflows.
+
+---
+
+## 🚀 Key Features
+
+* 📂 Batch print multiple PDFs from folders & subfolders
+* 🖨️ Supports USB, local, and network printers
+* 📊 Excel-style print queue manager
+* ⏯️ Pause, resume, and cancel print jobs
+* 🔁 Automatic retry system for failed prints
+* 📈 Real-time progress tracking
+* 📄 PDF preview support (embedded viewer)
+* 🔊 Sound notification on completion
+* 📝 Print logging system (success/failure tracking)
+* 🌙 Modern dark mode UI
+* 💾 Portable + installer support
+* 🔄 Auto-update system via GitHub Releases
+
+---
+
+## 🏢 Use Cases
+
+* Office document automation
+* School & university administration
+* Government document processing
+* Print shops & bulk printing services
+* Enterprise workflow automation
+
+---
+
+## ⚙️ System Requirements
+
+* Windows 10 / 11
+* Python 3.10+ (for source build)
+* SumatraPDF (bundled or portable version)
+* Minimum 4GB RAM
+* Printer (USB or Network)
+
+---
+
+## 📦 Installation
+
+### 🔹 Portable Version
+
+1. Download ZIP release
+2. Extract files
+3. Run `PDF_Print_Manager.exe`
+
+### 🔹 Installer Version
+
+1. Download `Setup.exe`
+2. Run installer
+3. Follow installation wizard
+
+---
+
+## 🧑‍💻 Development Setup
+
+```bash
+# Clone repository
+git clone https://github.com/YOUR_USERNAME/KAKULANEX-PrintManager.git
+
+# Install dependencies
+pip install PySide6 pywin32 pymupdf
+
+# Run application
+python main.py
+```
+
+---
+
+## 🔄 Auto Update System
+
+The application supports automatic updates using GitHub Releases.
+
+Update flow:
+
+1. App checks `update.json`
+2. Compares version
+3. Downloads latest installer
+4. Auto-installs update
+
+---
+
+## 📁 Project Structure
+
+```
+PDF_Print_Manager_PRO/
+│
+├── main.py
+├── SumatraPDF/
+├── branding/
+│   ├── logo.ico
+│   ├── splash.png
+│   ├── installer_banner.bmp
+│
+├── LICENSE
+├── README.md
+├── update.json
+```
+
+---
+
+## 🔐 License
+
+This project is licensed under the **MIT License**.
+
+You are free to use, modify, and distribute this software with attribution.
+
+---
+
+## 🏷️ Publisher
+
+**KAKULANEX Software Solutions**
 Reliable. Fast. Professional. Secure.
+
+---
+
+## 📌 Future Roadmap
+
+* 🌐 Multi-PC shared print server
+* 🔐 License key activation system
+* ☁️ Cloud-based print queue
+* 📊 Admin dashboard analytics
+* 📦 One-click enterprise installer
+* 🔔 Background auto-updater (silent mode)
+
+---
+
+## 🤝 Contribution
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## ⭐ Support
+
+If you find this project useful, please ⭐ the repository to support development.
+
+---
+
